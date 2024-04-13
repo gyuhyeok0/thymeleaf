@@ -43,6 +43,7 @@ public class LectureController {
         memberList.add(new MemberDTO("유관순", 16, '여', "서울시 도봉구"));
         memberList.add(new MemberDTO("장보고", 40, '남', "서울시 노진구"));
         memberList.add(new MemberDTO("신사임당", 30, '여', "서울시 영구"));
+        memberList.add(new MemberDTO("신사임당", 30, '여', "서울시 영구"));
 
         mv.addObject("memberList", memberList);
 
